@@ -34,7 +34,7 @@ printf "\e[32m" && __bannerTop && printf "\e[0m"
 sleep 1
 
 pkg install -y root-repo
-pkg install -y git tsu python wpa-supplicant pixiewps openssl
+pkg install -y git tsu python wpa-supplicant pixiewps openssl iw
 
 chmod +x script.py
 chmod +x attack.sh
